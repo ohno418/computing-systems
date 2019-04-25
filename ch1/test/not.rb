@@ -2,7 +2,7 @@ require './not'
 
 if Not.new(0).out == 1 && \
    Not.new(1).out == 0
-  puts 'Success!'
+  puts 'Success'
 else
-  raise
+  raise 'Failed'
 end
