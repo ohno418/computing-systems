@@ -1,4 +1,4 @@
-require './dmux'
+require_relative '../dmux'
 
 if DMux.new(0, 0).out == [0, 0] && \
    DMux.new(0, 1).out == [0, 0] && \

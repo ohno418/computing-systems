@@ -1,4 +1,4 @@
-require './mux16'
+require_relative '../mux16'
 
 if Mux16.new(
             [0,1,0,0,0,1,0,1,1,0,0,1,1,0,1,0],

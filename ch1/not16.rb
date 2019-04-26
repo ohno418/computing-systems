@@ -1,4 +1,4 @@
-require './not'
+require_relative './not'
 
 class Not16
   attr_accessor :a

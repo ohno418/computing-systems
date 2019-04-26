@@ -1,4 +1,4 @@
-require './not'
+require_relative '../not'
 
 if Not.new(0).out == 1 && \
    Not.new(1).out == 0

@@ -1,4 +1,4 @@
-require './mux'
+require_relative './mux'
 
 class Mux16
   attr_accessor :a, :b, :sel

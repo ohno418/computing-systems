@@ -1,4 +1,4 @@
-require './nand'
+require_relative './nand'
 
 class Not
   attr_accessor :a

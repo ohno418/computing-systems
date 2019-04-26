@@ -1,4 +1,4 @@
-require './or'
+require_relative '../or'
 
 if Or.new(0, 0).out == 0 && \
    Or.new(0, 1).out == 1 && \

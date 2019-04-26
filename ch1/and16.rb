@@ -1,4 +1,4 @@
-require './and'
+require_relative './and'
 
 class And16
   attr_accessor :a, :b

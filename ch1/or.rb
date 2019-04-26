@@ -1,5 +1,5 @@
-require './nand'
-require './not'
+require_relative './nand'
+require_relative './not'
 
 class Or
   attr_accessor :a, :b

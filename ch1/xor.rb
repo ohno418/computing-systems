@@ -1,5 +1,5 @@
-require './nand'
-require './or'
+require_relative './nand'
+require_relative './or'
 
 class Xor
   attr_accessor :a, :b

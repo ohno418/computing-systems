@@ -1,4 +1,4 @@
-require './and'
+require_relative '../and'
 
 if And.new(0, 0).out == 0 && \
    And.new(0, 1).out == 0 && \

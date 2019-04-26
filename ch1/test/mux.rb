@@ -1,4 +1,4 @@
-require './mux'
+require_relative '../mux'
 
 if Mux.new(0, 0, 0).out == 0 && \
    Mux.new(0, 1, 0).out == 0 && \

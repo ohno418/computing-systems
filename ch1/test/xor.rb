@@ -1,4 +1,4 @@
-require './xor'
+require_relative '../xor'
 
 if Xor.new(0, 0).out == 1 && \
    Xor.new(0, 1).out == 0 && \
